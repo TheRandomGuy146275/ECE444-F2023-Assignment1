@@ -1,7 +1,8 @@
 from utils import *
 import unittest
 
-class TestStringMethods(unittest.TestCase):
+# Framework from https://docs.python.org/3/library/unittest.html
+class TestMethods(unittest.TestCase):
     def test_reversed_int(self):
         self.assertEqual(utils.reversed(123456), 654321)
     def test_reversed_string(self):
